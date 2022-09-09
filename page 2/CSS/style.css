@@ -50,9 +50,8 @@ main {
 
 .container {
   background-color: black;
-  width: 50%;
+  width: 596px;
   margin: 0 auto;
-  text-align: center;
 }
 
  h1 {
@@ -68,8 +67,24 @@ main {
  h2 {
  color:#fff;
  padding: 0 0 40px;
+ font-size: 72px;
  }
-/* ??Animated search box?????????????????????????????????????????????????????? */
+ 
+ .a-login {
+  text-decoration-line: underline;
+ }
+
+ .a-login:hover {
+  color: white;
+ }
+
+ .div-for-faster-help {
+  color: white;
+  font-size: 24px;
+  margin:50px 0px ;
+ }
+
+/* ??Animated search box////////////////////////// */
 #animated input[type=text] {
   width: 596px;
   box-sizing: border-box;
@@ -80,30 +95,67 @@ main {
   padding: 12px 20px 12px 40px;
 }
 
-  .card {
-    overflow:hidden;
-  }
+.fa-fa-search {
+  position: relative;
+}
 
-  .card--pink {
-    background-color: rgb(175, 40, 150);
-  }
+.search-magnifiing-glass-img {
+  position: absolute;
+  margin: 10px;
+}
 
-  .card--red {
-    background-color: red;
-  }
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  height: 300px;
+  font-size: large;
+  padding: 30px 0px 70px;
+}
 
-  .card--orange {
-    background-color: orange;
-  }
+.card {
+  overflow:hidden;
+  border-radius: 4px;
+  height: 92px;
+  position: relative;
+}
 
-  .card--green {
-    background-color:green;
-  }
+.card--pink {
+  background-color: rgb(175, 40, 150);
 
-  .card--gray {
-    background-color: gray;
-  }
+}
 
-  .card--blue {
-    background-color: blue;
-  }
+.card--red {
+  background-color: rgb(140, 25, 50);
+}
+
+.card--orange {
+  background-color: rgb(176, 98, 57);
+}
+
+.card--green {
+  background-color:rgb(0, 100, 80);
+}
+
+.card--gray {
+  background-color: rgb(117, 117, 117);
+}
+
+.card--blue {
+  background-color: rgb(83, 122, 161);
+}
+
+.card__img {
+  transform: rotate(35deg);
+  position: absolute;
+  margin-right: -10px;
+  bottom: 0px;
+  right: -9px;
+}
+
+.card__title {
+  color: white;
+  float: left;
+  margin: 10px 40px 0px 15px;
+  width: 114px;
+}
