@@ -2,6 +2,7 @@
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   box-sizing: border-box;
+  padding: 0;
 }
 
 header {
@@ -31,16 +32,15 @@ header {
 
 li {
   padding: 28px 17px;
-  cursor: pointer;
 }
 
-a {
+.a-header:hover {
+  color: #1ED760;
+}
+
+.a-header {
   color: #ffffff;
   text-decoration: none;
-}
-
-a:hover {
-  color: #1ed760;
 }
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
@@ -72,6 +72,7 @@ main {
  
  .a-login {
   text-decoration-line: underline;
+  color:white
  }
 
  .a-login:hover {
@@ -79,7 +80,7 @@ main {
  }
 
  .div-for-faster-help {
-  color: white;
+  color: gray;
   font-size: 24px;
   margin:50px 0px ;
  }
@@ -158,4 +159,51 @@ main {
   float: left;
   margin: 10px 40px 0px 15px;
   width: 114px;
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+.container-two {
+  background-color: #FFFFFF12;
+  justify-content: center;
+  display: flex;
+}
+
+.wrapper-one {
+  width: 596px;
+  margin: 0 auto;
+}
+
+h3 {
+  color: #fff;
+  font-size: 24px;
+  padding:70px 0px 32px;
+}
+
+.container-two-list {
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ul-container-two {
+  list-style-type:none;
+  font-size: 18px;
+  color: #fff;
+}
+
+.li-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  text-decoration: none;
+}
+
+
+
+.li-container:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+a {
+  color: white;
 }
