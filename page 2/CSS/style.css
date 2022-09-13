@@ -49,41 +49,44 @@ main {
 }
 
 .container {
-  background-color: black;
-  width: 596px;
+  max-width: 596px;
+  width: 100%;
   margin: 0 auto;
 }
+.container--centered {
+  text-align: center;
+}
 
- h1 {
+h1 {
   color:#A7A7A7;
   padding:0 0 16px;
   font-size: 1.125rem;
   padding-block-end: 16px;
   display: block;
   margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  margin-inline-end: 0px; 
+}
 
- }
- h2 {
+h2 {
  color:#fff;
  padding: 0 0 40px;
  font-size: 72px;
  }
  
- .a-login {
+.a-login {
   text-decoration-line: underline;
   color:white
- }
+}
 
- .a-login:hover {
+.a-login:hover {
   color: white;
- }
+}
 
- .div-for-faster-help {
+.div-for-faster-help {
   color: gray;
   font-size: 24px;
   margin:50px 0px ;
- }
+}
 
 /* ??Animated search box////////////////////////// */
 #animated input[type=text] {
@@ -123,7 +126,6 @@ main {
 
 .card--pink {
   background-color: rgb(175, 40, 150);
-
 }
 
 .card--red {
@@ -161,8 +163,8 @@ main {
   width: 114px;
 }
 /* ////////////////////////////////////////////////////////////////////////////////////////// */
-.container-two {
-  background-color: #FFFFFF12;
+.quick-help__section {
+  background-color: #2a2a2a;
   justify-content: center;
   display: flex;
 }
@@ -197,8 +199,6 @@ h3 {
   text-decoration: none;
 }
 
-
-
 .li-container:hover {
   text-decoration: underline;
   color: #fff;
@@ -206,4 +206,191 @@ h3 {
 
 a {
   color: white;
+}
+/*  ///////////////////////////////////////////////////////////////////////////////////////////// */
+.community__section {
+  background-color:#FFFFFF12;
+  padding: 56px 0;
+}
+
+h5 {
+  color:#fff;
+ padding: 0 0 40px;
+ font-size: 48px;
+}
+
+p {
+  font-size: 16px;
+  color: #fff;
+}
+
+.btn {
+  text-transform: none;
+  text-decoration: none;  
+  padding: 15px 45px;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 60px;
+  border-radius: 100px;
+  transition: all .1s;
+  font-weight: 600;
+}
+
+.btn:hover {
+  text-transform: bold;
+  transform: scale(1.04);
+} 
+
+.btn:active {
+  transform: scale(1);
+  background-color: darkgreen;
+}
+
+.btn--green {
+  background-color: #1ED760;
+  color: black;
+  margin: 25px;
+}
+/* //Footer///////////////////////////////////////////////////////////////////////////////////////////////// */
+
+footer {
+  background-color: black;
+  box-sizing: border-box;
+  padding: 60px 0;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-img {
+  justify-content: space-between;
+}
+
+
+
+/* .footer-col {
+  margin: 0 15px;
+} */
+
+h4 {
+  color: white;
+  font-size: 18px;
+  text-transform:capitalize;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  color: #919496;
+}
+
+.social-links {
+  display: flex;
+  background-color: black;
+  gap: 15px;
+}
+
+.social-links img {
+  background-color: white;
+  width: 25px;
+  color: #1ed760;
+}
+
+.social-links li {
+  /* padding: 15px; */
+  border-radius: 50%;
+  height: 25px;
+  background-color: #222326;
+}
+
+.a:hover {
+  background-color: #1ED760;
+}
+
+.companie-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0%;
+  align-items: flex-start;
+}
+
+.companie-list li {
+  padding: 3px 0 15px;
+  width: 119px;
+}
+
+.a--footer {
+  text-decoration: none;
+}
+
+.a--footer:hover {
+  color: #1ED760;
+}
+
+.footer-wrap {
+  display: flex;
+  max-width: 1170px;
+  width: 100%;
+  gap: 50px;
+}
+
+.spacer {
+  flex: 1 0;
+}
+
+.romania {
+  font-size: 12px;
+  margin: px -400px;
+  display: flex;
+  flex-direction: row;
+  color: #919496;
+  max-width: 1170px;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.romania a {
+  color:#919496;
+}
+
+.romania a:hover {
+  color: #1ed760;
+}
+
+.legal-informati {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1170px;
+  width: 100%;
+  flex-direction: row;
+  text-transform: uppercase;
+  gap: 30px;
+  font-size: 12px;
+  letter-spacing: 0px;
+  
+  color: #919496;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+}
+
+.legal-informati a {
+  color: #919496;
+}
+
+.legal-informati a:hover {
+  color: #1ed760;
+}
+
+.space-word {
+  display: flex;
+  gap: 20px;
+}
+
+.btn--social {
+  border-radius: 500px;
+    padding: 10px;
+    background-color: #121212;
 }
