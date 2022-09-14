@@ -350,6 +350,7 @@ h4 {
 
 .romania a {
   color:#919496;
+  text-decoration: none;
 }
 
 .romania a:hover {
@@ -370,7 +371,6 @@ h4 {
   
   color: #919496;
   font-weight: normal;
-  text-decoration: none;
   font-style: normal;
   font-variant: normal;
   text-transform: none;
@@ -378,6 +378,7 @@ h4 {
 
 .legal-informati a {
   color: #919496;
+  text-decoration: none;
 }
 
 .legal-informati a:hover {
@@ -393,4 +394,8 @@ h4 {
   border-radius: 500px;
     padding: 10px;
     background-color: #121212;
+}
+
+.social-links img:hover {
+  background-color: #1ED760;
 }
